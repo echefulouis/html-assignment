@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media.css">
+    <title>Assignment 4 - Media</title>
+</head>
+<body>
+    <header>
+        <h1>About me</h1>
+        <p>Responsive medias</p>
+    </header>
+    <main>
+        <section>
+            <h2>Images of what i want in life </h2>
+            <picture>
+            <source srcset="https://media.gettyimages.com/id/128502214/photo/classic-turn-of-the-century-american-house.jpg?s=612x612&w=gi&k=20&c=i4olPZuStzxhaUt8Py7FzUSRaub86j2UdvezcLPtThI=" media="(min-width: 1024px)">
+            <source srcset="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg" media="(min-width: 768px) and (max-width: 1023px)">
+            <source srcset="https://t4.ftcdn.net/jpg/03/43/14/87/240_F_343148725_LLIgr5Sp1XfvG5xwmV8w6hRkPybKOqva.jpg" media="(max-width: 767px)">
+            <img src="https://t4.ftcdn.net/jpg/03/43/14/87/240_F_343148725_LLIgr5Sp1XfvG5xwmV8w6hRkPybKOqva.jpg" alt="A representation of what I want in life">
+        </picture>
+        </section>
+
+        <section>
+            <h2>Video from my travels</h2>
+            <p>Watch this video to see a nice view:</p>
+            <video controls width="800">
+                <source src="/images/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- Audio Element -->
+        <section>
+            <h2>Audio From a concert</h2>
+            <p>Listen to this audio:</p>
+            <audio controls>
+                <source src="/images/audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <a href="form.html">Back to main page</a>
+    </main>
+</body>
+</html>
